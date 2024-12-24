@@ -15,11 +15,11 @@ def run_command(command):
         return None
 
 def check_adb_connection():
-    print("\nVerificando conexão com dispositivo usando adb...")
+    print("\nVerificando conexão com dispositivo ou emulador...")
     print(run_command("adb devices"))
 
 def identify_avd_type():
-    print("\nIdentificando o tipo de AVD que está rodando...")
+    print("\nIdentificando o tipo de AVD ou arquitetura do processador")
     print(run_command("adb shell getprop ro.product.cpu.abi"))
 
 def config_proxy():
@@ -43,7 +43,7 @@ def delete_proxy():
     print("Configurações de proxy deletadas com sucesso.")
 
 def extract_apk():
-    print("\nListando pacotes disponíveis no emulador:")
+    print("\nLista os pacotes do aplicativo disponível no emulador ou dispositivo real:")
     packages = run_command("frida-ps -Uai")
     print(packages)
 
@@ -51,7 +51,7 @@ def extract_apk():
     if not selected_package:
         return
 
-    print(f"\nExtraindo APK do pacote: {selected_package}")
+    print(f"\nExtraindo APK: {selected_package}")
     apk_path_output = run_command(f"adb shell pm path {selected_package}")
     if apk_path_output:
         apk_path = apk_path_output.split(":")[-1].strip()
@@ -83,11 +83,11 @@ def main():
         clear_screen()
         display_header()
 
-        print("1. Verificar conexão com dispositivo usando adb")
-        print("2. Identificar tipo de AVD que está rodando")
+        print("1. Verificar conexão com dispositivo ou emulador")
+        print("2. Identificar o AVD ou arquitetura do processador")
         print("3. Configurar proxy usando adb")
         print("4. Deletar configurações de proxy")
-        print("5. Extrair um APK de um emulador")
+        print("5. Extrair um APK")
         print("6. Instalar um APK")
         print("7. Interceptar tráfego Flutter de uma APK")
         print("8. Listar redirecionamentos adb")
