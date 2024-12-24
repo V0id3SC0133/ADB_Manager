@@ -20,7 +20,7 @@ O **ADB Manager** é um script em Python que automatiza tarefas comuns do Androi
 2. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/adb-manager.git
+   git clone https://github.com/ESC0133/adb-manager.git
    cd adb-manager
    ```
 
@@ -55,4 +55,4 @@ Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE para
 
 ## Autor
 
-Criado por [Seu Nome](https://github.com/seu-usuario).
+Criado por [ESC0133](https://github.com/ESC0133).
