@@ -19,16 +19,16 @@ O **ADB Manager** é um script em Python que automatiza tarefas comuns do Androi
 1. Certifique-se de que o Python 3 está instalado em seu sistema.
 2. Clone este repositório:
 
-   ```bash
-   git clone https://github.com/ESC0133/adb-manager.git
-   cd adb-manager
-   ```
+```bash
+ git clone https://github.com/ESC0133/adb-manager.git
+ cd adb-manager
+```
 
 3. Execute o script:
 
-   ```bash
-   python3 adb_manager.py
-   ```
+ ```bash
+ python3 adb_manager.py
+ ```
 
 4. Siga as instruções exibidas no menu interativo.
 
@@ -49,11 +49,9 @@ O **ADB Manager** é um script em Python que automatiza tarefas comuns do Androi
 Escolha uma opção (1-9):
 ````
 
-5. Exemplos de utilização.
+5. Exemplo de utilização.
    
 ![image](https://github.com/user-attachments/assets/2985cc9f-5f69-46a6-a977-3bde5a4529c9)
-
-![image](https://github.com/user-attachments/assets/9bc27e97-632f-485e-9fa4-17524734781d)
 
 
 ## Pré-requisitos
