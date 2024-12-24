@@ -34,9 +34,12 @@ O **ADB Manager** é um script em Python que automatiza tarefas comuns do Androi
 
 ![image](https://github.com/user-attachments/assets/a018a982-d9f3-45d7-bf81-4abc1f54e28b)
 
-5. Exemplo de utilização.
+5. Exemplos de utilização.
    
-![image](https://github.com/user-attachments/assets/ac39eebf-0c57-4a75-b515-c38cfdf45b41)
+![image](https://github.com/user-attachments/assets/2985cc9f-5f69-46a6-a977-3bde5a4529c9)
+
+![image](https://github.com/user-attachments/assets/9bc27e97-632f-485e-9fa4-17524734781d)
+
 
 ## Pré-requisitos
 
