@@ -1,7 +1,6 @@
 import subprocess
 import os
 
-
 def run_command(command, silent=False):
     """Executa um comando no shell e retorna a saída."""
     try:
