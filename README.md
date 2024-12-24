@@ -32,8 +32,22 @@ O **ADB Manager** é um script em Python que automatiza tarefas comuns do Androi
 
 4. Siga as instruções exibidas no menu interativo.
 
-![image](https://github.com/user-attachments/assets/096d6674-3c6b-4890-b92b-52ceb8a238b7)
+````bash
+======================================
+    Ferramentas ADB - Menu Principal  
+======================================
+1. Verificar conexão com dispositivo ou emulador
+2. Identificar o AVD ou arquitetura do processador
+3. Configurar proxy usando adb
+4. Deletar configurações de proxy
+5. Extrair um APK
+6. Instalar um APK
+7. Interceptar tráfego Flutter de uma APK
+8. Listar redirecionamentos adb
+9. Sair
 
+Escolha uma opção (1-9):
+````
 
 5. Exemplos de utilização.
    
