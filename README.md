@@ -76,5 +76,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
 
 ## Autor
+## 👨‍💻 Autor
+- **Ernani S. Camilo**
+- **Nickname:** v0id3SC0133
 
-Criado por [ESC0133](https://github.com/ESC0133).
