@@ -78,5 +78,5 @@ Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE para
 ## Autor
 ## 👨‍💻 Autor
 - **Ernani S. C.**
-- **Nickname:** v0id3SC0133
+- **Nickname:** 3SC0133
 
